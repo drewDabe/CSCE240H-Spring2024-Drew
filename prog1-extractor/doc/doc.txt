@@ -1,0 +1,15 @@
+Prog1-extractor
+Drew Dabe
+Adv-prolang-s24
+
+filereadder.cpp is the main file to read the text files. 
+How I obtained the texts was I went to the raw html pages of each company and ctrl + A, ctrl + C'd it.
+The pattern that I noticed was (outside of the table of contents) the word "PART" in all-caps was only used at the start of a new part.
+So, in my code I start by looking for PART, which would be in the table of contents.
+We don't want to read anything outside of parts (right now anyways) so I just skip until I either see Part V, meaning that there are 5 parts instead of 4, which I believe is a possibility, or I see Part I again, meaning that the real content has begun.
+Then, I go to the main loop of the function, where, I skip at first because we've already started Part I (maybe unoptimally) and start counting each line.
+I didn't quite know how to count words so I googled it and grabbed a method.
+It reads until it finds "PART" in which it'll stop and print out the results of the last part or until it simply reaches the end where it'll print for the last time.
+I decided to do it all in a method which caused me some issues at first (or at least I think so, I was setting c++ up wrong maybe) but I think now it allows for room to grow.
+Basically you could read from multiple 10-ks at once which is probably optimal, though I never tried this in testing.
+Either way, from what I've found, it all looks good.
