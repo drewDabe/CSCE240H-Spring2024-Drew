@@ -25,7 +25,7 @@ void processShape(const string& shapeType, double arg1, double arg2 = 0, double 
             shape->calculatePerimeter();
         }
 
-        ofstream outputFile("C:\\Users\\kerry\\cppprojs\\OOGeometricPropertiesCalculator\\data\\output.txt", ios::app);
+        ofstream outputFile("..\\data\\output.txt", ios::app);
         if (outputFile.is_open()) {
             if (shape->getErrorMessage() != "") {
                 outputFile << shapeType << " " << (choice == 1 ? "AREA" : "PERIMETER") << " " << shape->getErrorMessage() << endl;
@@ -45,7 +45,7 @@ void processShape(const string& shapeType, double arg1, double arg2 = 0, double 
 int main() {
     int choice;
     while (true) {
-        ifstream inFile("C:\\Users\\kerry\\cppprojs\\OOGeometricPropertiesCalculator\\data\\input.txt");
+        ifstream inFile("..\\data\\input.txt");
         if (!inFile.is_open()) {
             cerr << "Unable to open input file." << endl;
             return 1;
