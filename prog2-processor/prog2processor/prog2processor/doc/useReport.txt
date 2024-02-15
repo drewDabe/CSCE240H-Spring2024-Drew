@@ -1,0 +1,27 @@
+This is my prog2-processor assignment.
+How to use:
+This program is coded in java, and it takes two args into String args. One will be -t, and the other will be your query.
+How I ran it in vscode was that the launch.json file you could just enter text straight into the args: object which meant I didn't have to retype everytime and could just hit the play button.
+I imagine there's a way to do this in eclipse if you are using that... but if you need to, you can probably just go into the folder and run like javac Main.java -t "print part 1" and it would do it.
+So going on to the text input itself, basically there are two inputs that it checks for: inputs regarding a part, and then inputs regarding an item.
+Basically, if you enter the name of any part, either "part 1", "part iii", and so forth, it should print out that part.
+If you enter the name of any item, for example, "item 3", "item 7a", it should print out that item.
+These two inputs should be able to coexist, such that if I enter "part iv and item 1", it will print out both part 4 and item 1.
+Additionally, if I enter any word that is larger than 3 letters which can be found within the name of an item, it should print that.
+For example, if I say "print gme's business information" it should print out item 1: Business, and anything else that has business, or even information, in it.
+Other inputs should be ignored, and if it's given something it doesn't recognize, like "item 100" it should ignore that too.
+As for the txt files I used, I mostly tested in gme.txt, which is what the relative path should currently be set to. My vscode determines relative paths as "\\prog2processor\\txt\\gme.txt" so if that doesn't work for you feel free to go into main and change that.
+You can also test it with the tsla.txt file for tesla. It should still work the same but the punctuation and wording might mess it up if you give it the wrong things.
+When entering text arguments try not to put like punctuation or additional text flairs without spacing it out.
+What that means is don't say "what's in part 2!??", it won't recognize 2!?? as a part and will print nothing. Special characters as a whole are kind of iffy with the .split function java regex reading for some reason.
+
+Additional info:
+It prints the word, line, and character count for each item. I just did this because I already did this in the first part and it would be easy to implement. I don't do this for the larger parts but I definitely could just by adding the numbers of its items together.
+It will tell you what 4 letter + word is being read when determined for item name.
+You might be wondering why this is in java in I did the first project in c++. Well actually I did this one in c++ too, the whole thing actually. I'm kind of the type to code everything in one go and debug after, so I did that in c++ but it just refused to work even after hours of debugging. I said to myself, "this is such an easy assignment, I could recode it in java in 15 minutes and it would work even better". So I rage-made this java program and it worked without any trouble.
+I'll probably figure out the c++ version soon and might add that, but deadlines and stuff.
+The output file is located on the highest level currently, but you can change that if you want to.
+The test picture shows the vscode configuration which shows me running it and how I did it if you need that.
+I don't care about the company name being given. It only reads one file at a time right now so that's problems for the future.
+I personally think that the criteria for this is quite vague, like it says to do these things and then in class he says to do none of them and I'm just left confused on which of them I actually need to do. like what's the length of "1 page"? and how would I send "confirmation". So I do none of these things and just type. Be more specific if you want your students to actually do this stuff.
+All minor and major bugs are intentional.
