@@ -1,0 +1,29 @@
+This is my prog3-ui assignment.
+How to use:
+This program is coded in java again, so you can basically use whatever terminal you want.
+At first this is the same as my prog2 assignment. I was going to recode it in python but it seemed too easy to change as it is and I'm rather lazy.
+Skip to the next paragraph for what's new.
+Basically there are two inputs that it checks for: inputs regarding a part, and then inputs regarding an item.
+If you enter the name of any part, either "part 1", "part iii", and so forth, it should print out that part.
+If you enter the name of any item, for example, "item 3", "item 7a", it should print out that item.
+These two inputs should be able to coexist, such that if I enter "part iv and item 1", it will print out both part 4 and item 1.
+Additionally, if I enter any word that is larger than 5 letters which can be found within the name of an item, it should print that.
+For example, if I say "print gme's business information" it should print out item 1: Business, and anything else that has business, or even information, in it.
+Other inputs should be ignored, and if it's given something it doesn't recognize, like "item 100" it should ignore that too.
+As for the txt files I used, I mostly tested in gme.txt, which is what the relative path should currently be set to. My vscode determines relative paths as "\\prog2processor\\txt\\gme.txt" so if that doesn't work for you feel free to go into main and change that.
+You can also test it with the tsla.txt file for tesla. It should still work the same but the punctuation and wording might mess it up if you give it the wrong things.
+
+In terms of new stuff, now it loads all the information for both gamestop and tesla before taking user input. Is this the best way to do it? Maybe.
+When taking in user input it first checks which company the user is referring to and then will send the correct one off.
+Theoretically this could be done with many many companies but here I only do two. 
+Then in the parsing information, it now gets rid of special characters (because who cares) and will be more specific about the length of the word it needs to find an item, with it being over 5 letters.
+If it has printed nothing but the input text still does have the company name it will print part 1 at the very least.
+If it found nothing it will print "I do not know this information".
+It still does write to an output.txt file.
+I changed much of the archetecture to be more streamline with functions and more reusable, taking it what feels like the more important values, and allowing most code to function on its own.
+
+Additional info:
+It prints the word, line, and character count for each item. I just did this because I already did this in the first part and it would be easy to implement. I don't do this for the larger parts but I definitely could just by adding the numbers of its items together.
+It will tell you what 4 letter + word is being read when determined for item name.
+The output file is located on the highest level currently, but you can change that if you want to.
+The best way to figure out how this works is just to run it. Stop reading and go try it!
