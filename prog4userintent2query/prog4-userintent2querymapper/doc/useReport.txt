@@ -1,0 +1,19 @@
+This is D Dabe's prog4-userintent2query programming assignment.
+Some things to note about this one that is different from the others is that it is done in python.
+It's also worth nothing that unlike the other ones where I account for any ammount of companies and inputs, in this one I hard code a significant amount of stuff in.
+This is in part due to python's ease of entering data, but also on account that I simply was searching for an algorith that took in a lot of data.
+So I was looking through the string parsing methods and in python you can get levitheans number (or something like that) and the important thing to note is that it takes in a tuplet.
+Basically this means that I was able to customize and slowly tweak with and test the program as it goes through.
+Given that it is basically just taking in whatever data and trying it's best to do whatever, and that there are no rules, I would say that this program most often outputs the wrong thing compared to the others.
+However, it truly does take in anything and has a lot of room to be easily expanded (although I am out of time for now)
+So things to note is the query class which takes a list of strings and then another value.
+This class is what calculates how close the number is using levenshtein's number. Make sure that python has access to the library when running, it should be in the .venv though.
+If you have any trouble running this, don't. It's python.
+Anyways the structure of the other classes and the reading method are more or less the same, just in python.
+So what I do after checking all the numbers is I get the average distance that the closest term is and then use that as a threshold to determine if one query really is closer than the others (significantly enough to print).
+How I would adapt this in the future is I would allow it to print anything past a certain threshold (which would be calculated with math).
+I would also calculate the 10 letter difference to be anything, and although for most intensive purposes 10 is fine, in certain cases mathing it out solves bugs.
+Another thing I considered is allowing for the parts/classes to make their own queries but I decided against it for this time; maybe if it was in c++
+Anyways aside from that not really a lot is going on. It writes to an output file. It does what the requirements say should be done (which are somehow less than the other assignments)
+Also I had to learn/re-learn python to code this so I could use some slack. It probably won't have any major bugs/crashes (because python can and will run anything with determination).
+It will, however, have many instances where it will improperly take in your input and output the wrong thing.
