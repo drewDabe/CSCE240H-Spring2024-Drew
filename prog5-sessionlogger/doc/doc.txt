@@ -1,0 +1,26 @@
+This is the doc for Drew's prog5-sessionlogger.
+For this one I really refined my original algorithm which utilized levenshtein distance in a way that would also take account writing data to an external file.
+
+At first what I did for this was I had the code store every part of the 10-k that the terminal printed.
+However, I realized that, if we wanted a text file of the 10-ks, we could just open that up.
+Type "tell me everything" and copy + paste.
+Furthermore, that would make the text files very difficult to read with -showchat.
+So, what I did was I only stored the name of the part/item that the program printed. I feel like at this point we know the __str__ method works, so.
+
+If the system says, "I don't understand", then under the user query i leave it blank.
+It sticks out more and solidifies that this is where the system didn't have an answer.
+Yeah and the printing method which I had done abhorrently last time has completely been redone.
+The way I did it was just horrible and inefficient in every way. It can still be improved, but I feel like this one does me more justice.
+Sometimes college can make it easy to forget that it's actually fun to code, so these discrepencies can slip through.
+
+Anyways, in terms of "using", it's pretty simple. In terms of python, you type python and then the filename.
+I could've changed it to be more like the example but I left it as main bc I thought that made more sense.
+If you wanna use it normally just type python main.py. Otherwise type python main.py -summary or python main.pyt -showchat <num></num>
+I'm not sure if the requirement wants for it to be the same program but I liked it that way.
+In theory for python having multiple files is much better because each line has to be gone through so large files are unwanted, but mine isn't very big yet so.
+
+For the csv I got a python import and then I organized it with the proper rows and columns. I'm pretty familiar with dealing with these kinds of files.
+The text file writing is a bit weird with how I did it at the bottom but I just open and close it on every query and then keep a global variable for which file instance we're using.
+There are better ways to do it, I imagine, and there are certainly modules for it, but how it is now is simple and easy without too much room for error.
+I also could have improved my "reading" algorithm, which is something I considered, because I could probably do it better.
+Still, given this project and the direction we're going I feel that the numerous changes that I made were significant and important to the current goals of the class.

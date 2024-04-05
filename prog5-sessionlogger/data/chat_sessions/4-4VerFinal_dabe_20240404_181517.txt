@@ -1,0 +1,85 @@
+
+
+tell me equity securities for tesla
+	Item: ITEM 5. MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+		Word Count: 439
+		Line Count: 17
+		Character Count: 2690
+ITEM 5. MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+Market Information
+Our common stock has traded on The NASDAQ Global Select Market under the symbol “TSLA” since it began trading on June 29, 2010. Our initial public offering was priced at approximately $1.13 per share on June 28, 2010 as adjusted to give effect to the three-for-one stock split effected in the form of a stock dividend in August 2022 (the “2022 Stock Split”) and the five-for-one stock split effected in the form of a stock dividend in August 2020 (the “2020 Stock Split”).
+Holders
+As of January 22, 2024, there were 9,300 holders of record of our common stock. A substantially greater number of holders of our common stock are “street name” or beneficial holders, whose shares are held by banks, brokers and other financial institutions.
+Dividend Policy
+We have never declared or paid cash dividends on our common stock. We currently do not anticipate paying any cash dividends in the foreseeable future. Any future determination to declare cash dividends will be made at the discretion of our board of directors, subject to applicable laws, and will depend on our financial condition, results of operations, capital requirements, general business conditions and other factors that our board of directors may deem relevant.
+Stock Performance Graph
+This performance graph shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference into any filing of Tesla, Inc. under the Securities Act of 1933, as amended (the “Securities Act”), or the Exchange Act, except as shall be expressly set forth by specific reference in such filing.
+The following graph shows a comparison, from January 1, 2019 through December 31, 2023, of the cumulative total return on our common stock, The NASDAQ Composite Index and a group of all public companies sharing the same SIC code as us, which is SIC code 3711, “Motor Vehicles and Passenger Car Bodies” (Motor Vehicles and Passenger Car Bodies Public Company Group). Such returns are based on historical results and are not intended to suggest future performance. Data for The NASDAQ Composite Index and the Motor Vehicles and Passenger Car Bodies Public Company Group assumes an investment of $100 on January 1, 2019 and reinvestment of dividends. We have never declared or paid cash dividends on our common stock nor do we anticipate paying any such cash dividends in the foreseeable future.
+31
+
+2470
+Unregistered Sales of Equity Securities and Use of Proceeds
+None.
+Purchases of Equity Securities by the Issuer and Affiliated Purchasers
+None.
+
+
+what are gme's controls?
+	Item: ITEM 9A.    CONTROLS AND PROCEDURES
+		Word Count: 1337
+		Line Count: 40
+		Character Count: 9174
+ITEM 9A.    CONTROLS AND PROCEDURES
+Evaluation of Disclosure Controls and Procedures
+As of the end of the period covered by this report, our management conducted an evaluation, under the supervision and with the participation of our principal executive officer and principal financial officer, of our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act). Disclosure controls and procedures are designed to provide reasonable assurance that the information required to be disclosed in the reports that we file or submit under the Exchange Act has been appropriately recorded, processed, summarized and reported on a timely basis and are effective in ensuring that such information is accumulated and communicated to management, including our principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure. Based on this evaluation, our principal executive officer and principal financial officer concluded that, as of the end of the period covered by this report, our disclosure controls and procedures are effective at the reasonable assurance level. Notwithstanding the foregoing, a control system, no matter how well designed and operated, can provide only reasonable, not absolute, assurance that it will detect or uncover failures to disclose material information otherwise required to be set forth in our periodic reports.
+Management’s Annual Report on Internal Control Over Financial Reporting
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting, as such term is defined in Rules 13a-15(f) and 15d-15(f). Our internal control over financial reporting is designed to provide
+62
+
+reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external reporting purposes in accordance with GAAP.
+A company’s internal control over financial reporting includes policies and procedures that: (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the Company, (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with GAAP, and that receipts and expenditures of the Company are being made only in accordance with duly documented authorizations of management and directors of the Company, and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use or disposition of the Company’s assets that could have a material effect on the financial statements.
+Due to inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Projections of any evaluation of effectiveness for future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+Under the supervision and with the participation of our management, including our principal executive officer and principal financial officer, we conducted an evaluation of the effectiveness of our internal control over financial reporting, as of January 28, 2023, based on the Internal Control-Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission, known as "COSO". Based on such evaluation, the Company’s management concluded that as of January 28, 2023, the Company’s internal control over financial reporting was effective at a reasonable assurance level.
+Deloitte & Touche LLP, our independent registered public accounting firm, has audited the effectiveness of our internal control over financial reporting as of January 28, 2023. Deloitte & Touche LLP’s opinion, as stated in their report which appears on the following page, is consistent with management’s report on internal control over financial reporting as set forth above.
+Changes in Control Over Financial Reporting
+During the third quarter of 2022, we implemented new enterprise resource planning ("ERP") software, SAP, as part of a plan to integrate and upgrade our systems and processes. Additional implementation activities are expected to continue in phases over the next few years. This project is expected to improve the efficiency and effectiveness of financial and business transaction processes, as well as the underlying systems environment. While we expect SAP to strengthen our internal financial controls, there are inherent risks in implementing any new system. Management will continue to evaluate and monitor our internal controls over financial reporting as processes and procedures in each of the affected areas evolve.
+There were no other changes in our internal control over financial reporting (as such term is defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during our most recently completed fiscal quarter that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
+63
+
+REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+To the Stockholders and the Board of Directors of GameStop Corp.
+Opinion on Internal Control over Financial Reporting
+We have audited the internal control over financial reporting of GameStop Corp. and subsidiaries (the “Company”) as of January 28, 2023, based on criteria established in Internal Control — Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of January 28, 2023, based on criteria established in Internal Control — Integrated Framework (2013) issued by COSO.
+We have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated financial statements as of and for the 52 week period ended January 28, 2023, of the Company and our report dated March 28, 2023, expressed an unqualified opinion on those financial statements.
+Basis for Opinion
+The Company’s management is responsible for maintaining effective internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Annual Report on Internal Control Over Financial Reporting. Our responsibility is to express an opinion on the Company’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was maintained in all material respects. Our audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, testing and evaluating the design and operating effectiveness of internal control based on the assessed risk, and performing such other procedures as we considered necessary in the circumstances. We believe that our audit provides a reasonable basis for our opinion.
+Definition and Limitations of Internal Control over Financial Reporting
+A company’s internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company’s internal control over financial reporting includes those policies and procedures that (1) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (2) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and directors of the company; and (3) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company’s assets that could have a material effect on the financial statements.
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+
+/s/ DELOITTE & TOUCHE LLP
+Dallas, Texas
+March 28, 2023
+
+
+
+
+
+
+64
+
+
+
+does tsla have anything about mine safety
+	Item: ITEM 4. MINE SAFETY DISCLOSURES
+		Word Count: 8
+		Line Count: 4
+		Character Count: 48
+ITEM 4. MINE SAFETY DISCLOSURES
+Not applicable.
+30
+
+
+
+awbdawdba

@@ -1,0 +1,14 @@
+
+User: almost out of time
+
+User: its fine, tell me tsla's foreign disclosures
+System: Printed information about... ITEM 4. MINE SAFETY DISCLOSURES
+System: Printed information about... ITEM 9C. DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS
+
+User: maybe gme fees and services?
+System: Printed information about... ITEM 14.    PRINCIPAL ACCOUNTANT FEES AND SERVICES*
+
+User: hello goodbye
+System: Hello
+User: thx
+System: No problem. Let me know if you need anything else

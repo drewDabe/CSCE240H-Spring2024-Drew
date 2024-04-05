@@ -1,0 +1,12 @@
+
+User: quick, tesla part i
+System: Printed information about... PART I
+
+User: gamestop part iv
+System: Printed information about... PART IV
+
+User: item 5 tsla
+System: Printed information about... ITEM 5. MARKET FOR REGISTRANT’S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
+
+User: whats the one like "Accountants on Accounting" or something?
+System: Printed information about... ITEM 9.    CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND FINANCIAL DISCLOSURE
