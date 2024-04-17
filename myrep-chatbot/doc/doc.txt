@@ -1,7 +1,0 @@
-This is the doc for Drew's prog6 final assignment.
-Basically the main changes are quality of life so it's more clear to unfamiliar programmers.
-Some additional helper comments, methods, and variables are used.
-Formatting for readability.
-It's used the same as prog5 and will for the most part have similar outputs.
-Some additional code is made for "confidence" and extra inputs, as can be seen.
-The logging is made as you use it so if you want to use that part, use it normally first.
