@@ -1,5 +1,5 @@
 # CSCE240H-Spring2024-Drew
-I am Drew Dabe and this is my CSCE240H prog5-sessionlogger program.
+I am Drew Dabe and this is my CSCE240H project list.
 Inside is the standard /src for the program, 
 /data for all things that the program uses, /test for some pictures of it working, 
 and /doc for some longer specific information.
