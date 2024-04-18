@@ -155,7 +155,14 @@ def main():
         running = True
         GME_parts = count_text_statistics("..\\data\\gme.txt") # change paths as needed
         TSLA_parts = count_text_statistics("..\\data\\tsla.txt")
-        
+        with open('..\\data\\chat_statistics.csv', newline='') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for row in reader:
+                    total_chats += 1
+                    user_queries += int(row['user_utterance'])
+                    system_responses += int(row['system_utterance'])
+                    total_duration += float(row['time'])
+        summ_out = f'There are {total_chats} chats to date with user asking {user_queries} times and system respond {system_responses} times. Total duration is {format(total_duration, ".2f")} seconds'
         system_response = [
             Query(["hey", "hi", "hello", "sup", "howdy"], sample_out="Hello"), #Handle Greeting
             Query(["thanks", "thank you", "thx"], sample_out="No problem. Let me know if you need anything else"), # You can really add anything you want here, but
@@ -186,7 +193,8 @@ def main():
             Query(["item 15", "Exhibits", "Financial Statement Schedule"], None, "Item 15"),
             Query(["item 16", "Summary", "Form 10-K Summary"], None, "Item 16"),
             Query(["tell me everything"], part_list=["Part I", "Part II", "Part III", "Part IV"]),
-            Query(["companies do you support?", "support for Q/A?"], sample_out="You can ask me any question about Gamestop, or GME, and Tesla, or TSLA.")
+            Query(["companies do you support?", "support for Q/A?"], sample_out="You can ask me any question about Gamestop, or GME, and Tesla, or TSLA."),
+            Query(["Give me your usage stats"], sample_out=summ_out)
         ]
         user_queries = 0
         system_responses = 0
